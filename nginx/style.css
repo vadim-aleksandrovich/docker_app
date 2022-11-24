@@ -104,7 +104,7 @@
 
 .box2:after {
   background-color: rgba(186, 231, 75, 0.68);
-  content: "SONG";
+  content: "MUSIC";
 }
 
 .box3:after {
@@ -124,7 +124,7 @@
 
 .box6:after {
   background-color: rgba(79, 183, 88, 0.67);
-  content: "APACHE";
+  content: "HTTPD";
 }
 
 .box1:hover:after,
