@@ -99,12 +99,12 @@
 
 .box1:after {
   background-color: rgba(250, 117, 55, 0.72);
-  content: "NEW PAGE";
+  content: "PADGE";
 }
 
 .box2:after {
   background-color: rgba(186, 231, 75, 0.68);
-  content: "MUSIC";
+  content: "SONG";
 }
 
 .box3:after {
