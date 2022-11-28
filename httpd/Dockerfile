@@ -1,10 +1,5 @@
 FROM ubuntu
-RUN export DEBIAN_FRONTEND=noninteractive
-RUN apt-get update
-RUN apt-get upgrade
-RUN apt-get install apache2 -y
-RUN apt-get install apache2-utils -y
-
+RUN apt-get update && apt-get upgrade
 RUN DEBIAN_FRONTEND=noninteractive apt-get install php libapache2-mod-php -y
 COPY info.php /var/www/html/info.php
 COPY dir.conf /etc/apache2/mods-available/dir.conf
