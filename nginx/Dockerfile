@@ -1,8 +1,6 @@
 FROM nginx:alpine
 
 RUN apk update
-
-
 RUN mkdir -p "/var/www/html/download" "/var/www/app" "/var/www/html/images" "/etc/letsencrypt"
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY fullchain.pem /etc/letsencrypt/fullchain.pem
